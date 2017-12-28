@@ -1,4 +1,4 @@
 # Stephen-Tan-Website
-This is the website for the Promp Crossplatform Mobile Application.
+This is Stephen Tan's personal website.
 
 URL to deployed website: https://stephen-tan-website.firebaseapp.com/
