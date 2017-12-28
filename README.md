@@ -1,2 +1,3 @@
 # Stephen-Tan-Website
-This is my personal website.
+This is the website for the Promp Crossplatform Mobile Application.
+
