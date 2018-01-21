@@ -2470,9 +2470,9 @@
 				background-color: rgba(239, 131, 118, 0.75);
 			}
 
-		.carousel .forward {
-			right: 0;
-		}
+			.carousel .forward {
+				right: 0;
+			}
 
 			.carousel .forward:before {
 				right: -3em;
@@ -2507,6 +2507,7 @@
 
 		.carousel article {
 			display: inline-block;
+			/* height: 20em; */
 			width: 18em;
 			background: #fff;
 			text-align: center;
@@ -2535,6 +2536,7 @@
 
 			.carousel article p {
 				text-align: center;
+				/* height: 20em; */
 			}
 
 /* Wide */
@@ -2554,14 +2556,14 @@
 				padding: 1.5em 0 1.5em 0;
 			}
 
-				.carousel .reel {
-					padding: 0 1.5em 0 1.5em;
-				}
+			.carousel .reel {
+				padding: 0 1.5em 0 1.5em;
+			}
 
-				.carousel article {
-					width: 18em;
-					margin: 0 1.25em 0 0;
-				}
+			.carousel article {
+				width: 18em;
+				margin: 0 1.25em 0 0;
+			}
 
 	}
 
