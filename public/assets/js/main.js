@@ -246,4 +246,11 @@
 
 	});
 
+	// fix promo video on mobile (jmerizia)
+		var promoVideo = document.getElementById("promoVideo");
+		var promoVideoRatio = promoVideo.height / promoVideo.width;
+		promoVideo.width = (window.innerWidth * 0.8) - 30;
+		promoVideo.height = Math.floor(promoVideo.width * promoVideoRatio);
+		// end fix video on mobile
+
 })(jQuery);
