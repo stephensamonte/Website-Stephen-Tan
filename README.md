@@ -1,4 +1,4 @@
-# Stephen-Tan-Website
+# Website-Stephen-Tan
 This is my personal website. This is where I show case projects I have or am working on. 
 
 URL to deployed website: https://stephen-tan-website.firebaseapp.com/
