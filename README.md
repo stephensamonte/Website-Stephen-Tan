@@ -16,5 +16,5 @@ URL to deployed website: https://stephen-tan-website.firebaseapp.com/
 - Project is hosted on Firebase: https://firebase.google.com/
 
 # Journal
-
-2019.01.07 Updated readme.md to include Reference and Journal section
+- 2019.01.07 Updated readme.md to include Reference and Journal section
+- 2019.01.12 Added Computer Science Overview Page
