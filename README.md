@@ -18,3 +18,4 @@ URL to deployed website: https://stephen-tan-website.firebaseapp.com/
 # Journal
 - 2019.01.07 Updated readme.md to include Reference and Journal section
 - 2019.01.12 Added Computer Science Overview Page
+- 2019.06.13.2019 Added VT Research 2019 & Innovate Superlatives Other.html
