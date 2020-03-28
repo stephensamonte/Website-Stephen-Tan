@@ -245,11 +245,34 @@
 
 	});
 
-	// fix promo video on mobile (jmerizia)
-	var promoVideo = document.getElementById("promoVideo");
-	var promoVideoRatio = promoVideo.height / promoVideo.width;
-	promoVideo.width = (window.innerWidth * 0.8) - 30;
-	promoVideo.height = Math.floor(promoVideo.width * promoVideoRatio);
-	// end fix video on mobile
+	// // fix promo video on mobile (jmerizia)
+	// var promoVideo = document.getElementById("promoVideo");
+	// var promoVideoRatio = promoVideo.height / promoVideo.width;
+	// promoVideo.width = (window.innerWidth * 0.8) - 30;
+	// promoVideo.height = Math.floor(promoVideo.width * promoVideoRatio);
+	// // end fix video on mobile
+
+	// Collapsible List Item --------------------------------------
+
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function () {
+			/* Toggle between adding and removing the "active" class,
+			to highlight the button that controls the panel */
+			this.classList.toggle("active");
+
+			/* Toggle between hiding and showing the active panel */
+			var panel = this.nextElementSibling;
+			if (panel.style.display === "block") {
+				panel.style.display = "none";
+			} else {
+				panel.style.display = "block";
+			}
+		});
+	}
+
+	// Collapsible List Item End --------------------------------
 
 })(jQuery);
