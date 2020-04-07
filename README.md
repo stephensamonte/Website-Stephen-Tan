@@ -19,3 +19,8 @@ URL to deployed website: https://stephen-tan-website.firebaseapp.com/
 - 2019.01.07 Updated readme.md to include Reference and Journal section
 - 2019.01.12 Added Computer Science Overview Page
 - 2019.06.13.2019 Added VT Research 2019 & Innovate Superlatives Other.html
+- 2019.07.17 Added Page for personal server & removed unused code
+- 2019.07.24 Update server-personal.html
+- 2020.03.22 Added Virginia Tech AutoDrive to Website
+- 2020.03.26 Added Virtual University Project
+- 2020.03.28 Added Clifton Strengths to About Page
