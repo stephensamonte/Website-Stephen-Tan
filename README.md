@@ -24,3 +24,4 @@ URL to deployed website: https://stephen-tan-website.firebaseapp.com/
 - 2020.03.22 Added Virginia Tech AutoDrive to Website
 - 2020.03.26 Added Virtual University Project
 - 2020.03.28 Added Clifton Strengths to About Page
+- 2020.04.30 Added Programming Languages I have been exposed to
