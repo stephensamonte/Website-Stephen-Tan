@@ -25,3 +25,4 @@ URL to deployed website: https://stephen-tan-website.firebaseapp.com/
 - 2020.03.26 Added Virtual University Project
 - 2020.03.28 Added Clifton Strengths to About Page
 - 2020.04.30 Added Programming Languages I have been exposed to
+- 2021-02-23 Added 2020 GitHub Contributions Image
