@@ -42,3 +42,6 @@ URL to deployed website:
   - Added alternative link to website
   - Added `Deploying Website` section
   - Updated markdown syntax
+- 2023-01-07
+  - Moved Hosting from Firebase to GitHub Pages
+  - Added custom domain stephent.dev
