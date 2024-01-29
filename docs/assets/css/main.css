@@ -1795,7 +1795,8 @@ header .icon.circled {
 
 #header {
 	position: relative;
-	background-image: url("../../images/header.jpg");
+	/* background-image: url("../../images/header.jpg"); */
+	background-image: url("https://mytools.dev/images/generated/2024-01-28_LaptopAndToysInEnchantingLandscape.jpeg");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
