@@ -997,12 +997,14 @@
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
+			display: flex;
 		}
 
 		article {
 			display: inline-block;
+			flex: 0 0 auto;
 			width: 18em;
-			background: #fff;
+			background: #141b3d;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
@@ -1021,6 +1023,27 @@
 				width: auto;
 				margin-right: -2em;
 				margin-bottom: 3em;
+				height: 7em;
+				overflow: hidden;
+
+				img {
+					height: 100%;
+					object-fit: contain;
+				}
+
+				&.monogram {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					background: linear-gradient(135deg, #1b2452 0%, #10162f 100%);
+					color: #9fb4ff;
+
+					span {
+						font-size: 4em;
+						font-weight: bold;
+						letter-spacing: 0.1em;
+					}
+				}
 			}
 
 			p {

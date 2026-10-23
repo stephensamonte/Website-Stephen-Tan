@@ -2203,13 +2203,21 @@ body.homepage.is-loading #header:after {
 	position: relative;
 	-webkit-overflow-scrolling: touch;
 	padding: 0 2em 0 2em;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 }
 
 .carousel article {
 	display: inline-block;
-	/* height: 20em; */
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
 	width: 18em;
-	background: #fff;
+	background: #141b3d;
 	text-align: center;
 	padding: 0 1em 3em 1em;
 	margin: 0 2em 0 0;
@@ -2232,6 +2240,33 @@ body.homepage.is-loading #header:after {
 	width: auto;
 	margin-right: -2em;
 	margin-bottom: 3em;
+	height: 7em;
+	overflow: hidden;
+}
+
+.carousel article .image img {
+	height: 100%;
+	object-fit: contain;
+}
+
+.carousel article .image i {
+	font-size: 3em;
+	color: #64b5f6;
+	line-height: 7em;
+}
+
+.carousel article .image.monogram {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, #1b2452 0%, #10162f 100%);
+	color: #9fb4ff;
+}
+
+.carousel article .image.monogram span {
+	font-size: 4em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
 }
 
 .carousel article p {
