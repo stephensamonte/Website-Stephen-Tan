@@ -619,11 +619,10 @@ a:focus-visible,
     padding: 0.5rem 0.25rem;
   }
 
+  /* Collapsed by default: tap (focus) or hover the parent item to open */
   .dropdown {
     position: static;
-    visibility: visible;
-    opacity: 1;
-    transform: none;
+    display: none;
     width: 100%;
     min-width: 0;
     max-width: none;
@@ -634,6 +633,11 @@ a:focus-visible,
     border-left: 2px solid var(--line-strong);
     border-radius: 0;
     box-shadow: none;
+  }
+
+  .nav-item:hover > .dropdown,
+  .nav-item:focus-within > .dropdown {
+    display: block;
   }
 
   .dropdown a,
