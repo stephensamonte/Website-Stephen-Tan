@@ -13,3 +13,8 @@ Thumbs.db
 *.tmp
 *.swp
 *~
+# IDE / CLI local state
+.vs/
+.firebase/
+firebase.json
+.firebaserc
